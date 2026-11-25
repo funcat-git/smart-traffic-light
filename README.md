@@ -2,6 +2,8 @@
 
 > 工程训练项目（选题二）——基于 AT89C51 单片机的智能交通灯设计与 Proteus 仿真
 
+**仓库地址**：[github.com/funcat-git/smart-traffic-light](https://github.com/funcat-git/smart-traffic-light)
+
 [![MCU](https://img.shields.io/badge/MCU-AT89C51-blue)]()
 [![IDE](https://img.shields.io/badge/IDE-Keil%20C51-orange)]()
 [![SIM](https://img.shields.io/badge/Simulation-Proteus-green)]()
@@ -94,7 +96,8 @@
 
 ### 只想看仿真效果（不装 Keil）
 ```bash
-git clone <仓库地址>
+git clone https://github.com/funcat-git/smart-traffic-light.git
+cd smart-traffic-light
 ```
 用 Proteus 打开 `simulation/TrafficLight.pdsprj`，点左下角 ▶ 运行。
 
