@@ -1,0 +1,41 @@
+# ================= Keil C51 编译产物（不用提交） =================
+Objects/
+Listings/
+*.obj
+*.OBJ
+*.lst
+*.LST
+*.m51
+*.M51
+*.lnp
+*.LNP
+*.omf
+*.build_log.htm
+*.dep
+*.uvgui.*
+*.uvopt
+*.uvoptx
+
+# 注意：*.hex 故意不忽略！Proteus 仿真需要 HEX 文件，
+#       提交后组员克隆下来直接就能跑仿真，不用装 Keil。
+
+# ================= Proteus 临时文件 =================
+*.pdsbak
+*.pdsprj.*.bak
+Backup*/
+~*.pdsprj
+
+# ================= 系统 / 编辑器垃圾 =================
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# ================= 打包产物 =================
+build/
+dist/
+*.zip
+*.rar
