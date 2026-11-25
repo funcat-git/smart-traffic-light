@@ -1,0 +1,14 @@
+# 统一换行符：源码用 LF 提交，检出时自动转本机
+* text=auto eol=lf
+
+# Keil / Proteus 二进制文件，禁止换行转换和 diff
+*.hex   binary
+*.pdsprj binary
+*.pdsbak binary
+*.uvproj binary
+*.uvprojx binary
+*.LIB binary
+*.obj binary
+
+# 文档里以中文为主，diff 时按文本处理
+*.md text eol=lf
